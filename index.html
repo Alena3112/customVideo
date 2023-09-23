@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CustomVideo </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <section class="video">
+                <div class="video_container">
+                    <div class="section-title" data-i18="video">
+                        <h2 id="video">Video</h2>
+                    </div>
+                    <div class="player play_player">
+                        <video muted class="player__video viewer" src="assets/video.mp4" poster="assets/poster.jpg"></video>
+                        <div class="play_hover"><button class="play_hover-btn toggle"></button> </div>
+                        <div class="player__controls">
+    
+                            <button class="player__button toggle credits" title="Toggle Play"></button>
+                            <div class="progress">
+                                <div class="progress__filled"></div>
+                            </div>
+                            <button id="volume" class="player__button toggle volumeBtn" title="Toggle Play"></button>
+                            <input type="range" name="volume" class="player__slider progress" min="0" max="1" step="0.05"
+                                value="1">
+                        </div>
+            </section>
+        </div>
+        
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_container">
+                <div class="footer_wrap footer-data">
+                    <p>©</p>
+                    <p>2023</p>
+                    <a href="https://github.com/Alena3112?tab=repositories">github</a>
+                </div>
+                <div class="footer_wrap RSS">
+                    <a href="https://rs.school/js-stage0/">Rolling Scopes School</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
