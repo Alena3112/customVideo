@@ -63,6 +63,7 @@ body {
 
 .section-title h2 {
   position: relative;
+  color: #bdae82;
 }
 @media (max-width: 768px) {
   .section-title h2 {
